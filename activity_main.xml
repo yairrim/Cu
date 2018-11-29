@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/a1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="182dp"
+        android:text="1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/a2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="7dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginTop="77dp"
+        android:text="2"
+        app:layout_constraintStart_toEndOf="@+id/a1"
+        app:layout_constraintTop_toBottomOf="@+id/anseView" />
+
+    <Button
+        android:id="@+id/a3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="9dp"
+        android:layout_marginLeft="9dp"
+        android:layout_marginTop="77dp"
+        android:text="3"
+        app:layout_constraintStart_toEndOf="@+id/a2"
+        app:layout_constraintTop_toBottomOf="@+id/anseView" />
+
+    <Button
+        android:id="@+id/a4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="15dp"
+        android:text="4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/a1" />
+
+    <Button
+        android:id="@+id/a5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="7dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginTop="15dp"
+        android:text="5"
+        app:layout_constraintStart_toEndOf="@+id/a4"
+        app:layout_constraintTop_toBottomOf="@+id/a2" />
+
+    <Button
+        android:id="@+id/a6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="9dp"
+        android:layout_marginLeft="9dp"
+        android:layout_marginTop="15dp"
+        android:text="6"
+        app:layout_constraintStart_toEndOf="@+id/a5"
+        app:layout_constraintTop_toBottomOf="@+id/a3" />
+
+    <Button
+        android:id="@+id/a7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="11dp"
+        android:text="7"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/a4" />
+
+    <Button
+        android:id="@+id/a8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="7dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginTop="11dp"
+        android:text="8"
+        app:layout_constraintStart_toEndOf="@+id/a7"
+        app:layout_constraintTop_toBottomOf="@+id/a5" />
+
+    <Button
+        android:id="@+id/a9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="9dp"
+        android:layout_marginLeft="9dp"
+        android:layout_marginTop="11dp"
+        android:text="9"
+        app:layout_constraintStart_toEndOf="@+id/a8"
+        app:layout_constraintTop_toBottomOf="@+id/a6" />
+
+    <Button
+        android:id="@+id/ans"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="93dp"
+        android:text="="
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/a7" />
+
+    <Button
+        android:id="@+id/plus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="36dp"
+        android:text="+"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/a7" />
+
+    <Button
+        android:id="@+id/minus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="36dp"
+        android:text="-"
+        app:layout_constraintStart_toEndOf="@+id/plus"
+        app:layout_constraintTop_toBottomOf="@+id/a8" />
+
+    <Button
+        android:id="@+id/multiplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="11dp"
+        android:text="X"
+        app:layout_constraintStart_toEndOf="@+id/ans"
+        app:layout_constraintTop_toBottomOf="@+id/minus" />
+
+    <Button
+        android:id="@+id/Divaid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="9dp"
+        android:layout_marginLeft="9dp"
+        android:layout_marginTop="95dp"
+        android:text=":"
+        app:layout_constraintStart_toEndOf="@+id/multiplay"
+        app:layout_constraintTop_toBottomOf="@+id/a9" />
+
+    <Button
+        android:id="@+id/clear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="9dp"
+        android:layout_marginLeft="9dp"
+        android:layout_marginTop="36dp"
+        android:text="C"
+        app:layout_constraintStart_toEndOf="@+id/minus"
+        app:layout_constraintTop_toBottomOf="@+id/a9" />
+
+    <TextView
+        android:id="@+id/anseView"
+        android:layout_width="322dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="48dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:textSize="30sp" />
+
+</android.support.constraint.ConstraintLayout>
